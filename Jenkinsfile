@@ -7,6 +7,10 @@ pipeline{
                 sh '''
                     echo "before the execute"
                     ls -la
+                    whoami
+                    hostname
+                    cd /var/www
+                    ls
                 '''
             }
         }
